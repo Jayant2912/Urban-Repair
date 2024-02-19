@@ -1,0 +1,68 @@
+.bottom-division{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color:#08192b;
+   color: aliceblue;
+}
+.company-details{
+    margin-top: 5px;
+  padding: 20px;
+  text-align: left; 
+}
+.company-location{
+    padding: 20px;
+}
+.map-image{
+    display: inline-block;
+    height: 240px;
+    width: 188px;
+}
+.map-link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+}
+.image-position{
+    position: relative;
+}
+.map-link{
+    position: absolute;
+    bottom: 4px;
+    right: 10px;
+}
+.other-locations{
+    margin-top: 20px;
+}
+.connections-follow{
+    margin-top:20px;
+    margin-left: 20px;
+}
+.connections-follow{
+    display: block;
+    width: 300px;
+}
+.follow-icons{
+    height: 200px;
+}
+.fa-icon-class{
+    margin: 10px 10px 10px 10px;
+    height: 40px;
+    width: 44px;
+}
+.social-media-icons{
+    display: block;
+    height: auto;
+    width: 305px;
+}
+h3{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+a:link {
+    text-emphasis-color: aliceblue;
+    color:aliceblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  

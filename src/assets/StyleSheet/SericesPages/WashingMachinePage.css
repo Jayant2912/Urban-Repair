@@ -1,0 +1,118 @@
+.WashingMachine-Page-header {
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  height: auto; 
+  text-align: center; 
+  padding: 20px 0; 
+  display: flex;
+  justify-content: flex-end;
+}
+.WashingMachine-Page-header-heading{
+  font-weight: 700;
+  font-size: 44px;
+}
+.WashingMachine-Page-header-image1{
+  height: 200px;
+}
+.WashingMachine-Page-header-image2{
+  height: 450px;
+}
+#filler-text{
+  display: flex;
+  font-size: x-large;
+  padding: 2px 2px 2px 2px;
+}
+
+
+
+
+.WashingMachine-Page-header {
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  height: auto; 
+  text-align: center; 
+  padding: 20px 0; 
+}
+
+.WashingMachine-Page-header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.WashingMachine-Page-container {
+  /* background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)); */
+  padding: 20px;
+  text-align: center; 
+}
+
+.WashingMachine-Main-content {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;  */
+  padding: 20px;
+  text-align: center; 
+}
+
+.WashingMachine-Main-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 20px;
+  text-align: center; 
+}
+
+.WashingMachine-Templates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.WashingMachine-Company-Name-Container {
+  height: fit-content;
+  width: calc(25% - 90px); 
+  margin-right: 90px;
+  margin-bottom: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+
+.WashingMachine-Company-Name-Container:hover {
+  transform: scale(1.1);
+}
+
+.WashingMachine-Template-Images-Container {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.WashingMachine-Template-Images-Container:hover {
+  transform: scale(1.05);
+  /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+}
+
+.WashingMachine-Company-Image {
+  display: grid;
+  width: -webkit-fill-available;
+  padding: 10px 10px 10px 10px;
+  height: 200px;
+}
+
+.WashingMachine-Company-Name {
+  display: inline-block;
+  margin-top: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  margin-right: 50px;
+}
+
+@media (max-width: 768px) {
+  .WashingMachine-Company-Name-Container {
+    width: calc(50% - 45px);
+    margin-right: 45px;
+  }
+}
+

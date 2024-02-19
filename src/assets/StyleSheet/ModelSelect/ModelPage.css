@@ -1,0 +1,45 @@
+.Model-Heading{
+    font-size: 44px;
+    font-weight:bold;
+    text-align:start; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left:20px;
+  }
+  .Main-Body-Template{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  .Templates-Model-Image{
+    display: grid;
+    width: -webkit-fill-available;
+    padding: 10px 10px 10px 10px;
+    height: 200px;
+  }
+  .Model-Container{
+    height: fit-content;
+    width: calc(33.33% - 190px); 
+    margin-right: 90px;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 15px;
+    background: aliceblue;
+  }
+  .Template-Model-Name{
+    display: inline-block;
+    margin-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-right: 5px;
+  }
+  .Model-Container:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
